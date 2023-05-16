@@ -17,11 +17,11 @@ create table item(
     barcode varchar(30) not null, 
     name varchar(50),
     count int not null,
-    supplier varchar(50) not null,
+    supplier varchar(50),
     productCodeSupplier varchar(30),
-    itemCountPerOrder int not null,
+    itemCountPerOrder int,
     notes varchar(300),
-    departmentID int not null,
+    departmentID int,
     constraint FK1_item_department
 		foreign key (departmentID)
         references department(departmentID)
@@ -35,11 +35,11 @@ create table perishableItem(
     name varchar(50),
     count int not null,
     expirationDate date not null,
-    supplier varchar(50) not null,
+    supplier varchar(50),
     productCodeSupplier varchar(30),
-    itemCountPerOrder int not null,
+    itemCountPerOrder int,
     notes varchar(300),
-    departmentID int not null,
+    departmentID int,
     constraint FK2_perishableItem_department
 		foreign key (departmentID)
         references department(departmentID)

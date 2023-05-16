@@ -471,7 +471,7 @@
 											"top": 242,
 											"width": 184.259765625,
 											"height": 13,
-											"text": "Supplier: string NNA",
+											"text": "Supplier: string NA",
 											"horizontalAlignment": 0
 										},
 										{
@@ -505,7 +505,7 @@
 											"top": 272,
 											"width": 184.259765625,
 											"height": 13,
-											"text": "ItemCountPerOrder: int NNA",
+											"text": "ItemCountPerOrder: int NA",
 											"horizontalAlignment": 0
 										},
 										{
@@ -876,7 +876,7 @@
 											"top": 481,
 											"width": 184.259765625,
 											"height": 13,
-											"text": "Supplier: string NNA",
+											"text": "Supplier: string NA",
 											"horizontalAlignment": 0
 										},
 										{
@@ -910,7 +910,7 @@
 											"top": 511,
 											"width": 184.259765625,
 											"height": 13,
-											"text": "ItemCountPerOrder: int NNA",
+											"text": "ItemCountPerOrder: int NA",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1745,7 +1745,7 @@
 								"$ref": "AAAAAAGGSvM+DqqGdnk="
 							},
 							"name": "Supplier",
-							"type": "string NNA"
+							"type": "string NA"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1763,7 +1763,7 @@
 								"$ref": "AAAAAAGGSvM+DqqGdnk="
 							},
 							"name": "ItemCountPerOrder",
-							"type": "int NNA"
+							"type": "int NA"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1780,7 +1780,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGGSvM+DqqGdnk="
 							},
-							"name": "DepartmentID FK1"
+							"name": "DepartmentID FK1",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1871,7 +1872,7 @@
 								"$ref": "AAAAAAGGSvQ8eKqwaTk="
 							},
 							"name": "Supplier",
-							"type": "string NNA"
+							"type": "string NA"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1889,7 +1890,7 @@
 								"$ref": "AAAAAAGGSvQ8eKqwaTk="
 							},
 							"name": "ItemCountPerOrder",
-							"type": "int NNA"
+							"type": "int NA"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1897,7 +1898,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGGSvQ8eKqwaTk="
 							},
-							"name": "DepartmentID FK2"
+							"name": "DepartmentID FK2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
